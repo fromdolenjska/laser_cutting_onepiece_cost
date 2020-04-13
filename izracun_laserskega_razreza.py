@@ -14,4 +14,4 @@ def cas_izreza_kosa():
     cas_not_kon = obseg_lukenj // hitrost_razreza_not_kontura * stevilo_prebojev
     cas_prebojev = stevilo_prebojev * čas_preboja
     return cas_zun_kon + cas_not_kon + cas_prebojev
-print("To je cas coletnega razreza kosa ", cas_izreza_kosa()) # ne das vmes plus ker int in str ne mores sestevat ampak das vejico (,)
+print("To je cas celotnega razreza kosa ", cas_izreza_kosa()) # ne das vmes plus ker int in str ne mores sestevat ampak das vejico (,)
